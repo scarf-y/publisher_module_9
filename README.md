@@ -19,4 +19,5 @@ URL tersebut adalah alamat koneksi ke RabbitMQ message broker yang digunakan ole
 
 Dengan begitu, pesan yang dikirim oleh publisher akan bisa diterima oleh subscriber karena mereka berada di jaringan/message broker yang sama.
 
-
+## Running RabbitMQ as Message Broker
+![Running RabbitMQ as message broker.](screenshots/Rabbitmqfirstpic.png)
