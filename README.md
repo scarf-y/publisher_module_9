@@ -27,3 +27,8 @@ Dengan begitu, pesan yang dikirim oleh publisher akan bisa diterima oleh subscri
 ![SendingEventsToRabbitMQthenProcessingIt](screenshots/terminal_publisher_dan_subscriber.png)
 
 Ketika Subscriber terkoneksi ke Message Broker (RabbitMQ) lalu Publisher diaktifkan, Publisher akan mengirim event atau dalam hal ini pesan (untuk contoh ini ada 5) ke RabbitMQ dan kemudian dari RabbitMQ pesan diterima oleh Subscriber. Kemudian, Subscriber memproses pesan tersebut.
+
+## Monitoring Chart based on Publisher
+![MonitoringChart](screenshots/MonitoringChart.png)
+
+Chart ini menunjukkan rates message yang masuk ke Message Broker (RabbitMQ) dalam satu menit terakhir, ketika publisher dijalankan saat itu juga lah message masuk ke RabbitMQ menyebabkan spike dalam chart.
