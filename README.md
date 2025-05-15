@@ -21,3 +21,9 @@ Dengan begitu, pesan yang dikirim oleh publisher akan bisa diterima oleh subscri
 
 ## Running RabbitMQ as Message Broker
 ![Running RabbitMQ as message broker.](screenshots/Rabbitmqfirstpic.png)
+
+
+## Sending and Processing Events
+![SendingEventsToRabbitMQthenProcessingIt](screenshots/terminal_publisher_dan_subscriber.png)
+
+Ketika Subscriber terkoneksi ke Message Broker (RabbitMQ) lalu Publisher diaktifkan, Publisher akan mengirim event atau dalam hal ini pesan (untuk contoh ini ada 5) ke RabbitMQ dan kemudian dari RabbitMQ pesan diterima oleh Subscriber. Kemudian, Subscriber memproses pesan tersebut.
